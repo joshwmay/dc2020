@@ -5,5 +5,28 @@ body {
 }
 
 h1, h2, p {
+    display: flex;
+    justify-content: center;
+    text-justify: center;
     color: #DDFF0D
+}
+
+h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background-color: #44FFC7;
+    color: #0C9BF0;
+    margin: 20px;
+    align-items: center;
+
 }
