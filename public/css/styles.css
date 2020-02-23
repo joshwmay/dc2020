@@ -30,8 +30,9 @@ h3{
     align-items: center;
 }
 
-#viz1582415569293 {
+.tableauPlaceholder {
     display: flex;
     justify-content: center;
-    width: 50%;
+    padding-top: 10px; 
+    padding-bottom: 10px;
 }
