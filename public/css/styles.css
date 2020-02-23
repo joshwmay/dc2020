@@ -28,5 +28,10 @@ h3{
     color: #0C9BF0;
     margin: 20px;
     align-items: center;
+}
 
+#viz1582415569293 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
 }
