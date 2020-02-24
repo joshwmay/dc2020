@@ -1,0 +1,361 @@
+Temperature,Dew Point,Humidity,Wind,Wind Speed,Wind Gust,Pressure,Precip.,Condition,DateTime
+63 F,50 F,63 %,N,8 mph,0 mph,30.02 in,0.0 in,T-Storm,2019-10-28T00:00:00Z
+61 F,48 F,62 %,N,6 mph,0 mph,30.02 in,0.0 in,Fair,2019-10-28T01:00:00Z
+59 F,49 F,69 %,N,6 mph,0 mph,30.04 in,0.0 in,Fair,2019-10-28T02:00:00Z
+58 F,51 F,78 %,N,6 mph,0 mph,30.05 in,0.0 in,Fair,2019-10-28T03:00:00Z
+58 F,51 F,78 %,N,8 mph,0 mph,30.07 in,0.0 in,Fair,2019-10-28T04:00:00Z
+56 F,51 F,84 %,N,8 mph,0 mph,30.10 in,0.0 in,Fair,2019-10-28T05:00:00Z
+58 F,50 F,75 %,NNE,7 mph,0 mph,30.13 in,0.0 in,Fair,2019-10-28T06:00:00Z
+58 F,49 F,72 %,NE,9 mph,0 mph,30.16 in,0.0 in,Fair,2019-10-28T07:00:00Z
+60 F,49 F,67 %,ENE,5 mph,0 mph,30.19 in,0.0 in,Fair,2019-10-28T08:00:00Z
+60 F,49 F,67 %,NE,9 mph,0 mph,30.19 in,0.0 in,Fair,2019-10-28T09:00:00Z
+64 F,49 F,58 %,NE,8 mph,0 mph,30.18 in,0.0 in,Fair,2019-10-28T10:00:00Z
+65 F,49 F,56 %,NE,5 mph,0 mph,30.18 in,0.0 in,Fair,2019-10-28T11:00:00Z
+67 F,48 F,51 %,NE,5 mph,0 mph,30.16 in,0.0 in,Fair,2019-10-28T12:00:00Z
+68 F,49 F,50 %,ENE,7 mph,0 mph,30.15 in,0.0 in,Fair,2019-10-28T13:00:00Z
+69 F,49 F,49 %,ESE,6 mph,0 mph,30.14 in,0.0 in,Partly Cloudy,2019-10-28T14:00:00Z
+67 F,50 F,54 %,SE,7 mph,0 mph,30.15 in,0.0 in,Partly Cloudy,2019-10-28T15:00:00Z
+65 F,51 F,61 %,SE,9 mph,0 mph,30.16 in,0.0 in,Mostly Cloudy,2019-10-28T16:00:00Z
+62 F,51 F,67 %,SE,6 mph,0 mph,30.17 in,0.0 in,Mostly Cloudy,2019-10-28T17:00:00Z
+61 F,51 F,70 %,ESE,5 mph,0 mph,30.18 in,0.0 in,Mostly Cloudy,2019-10-28T18:00:00Z
+58 F,53 F,84 %,S,3 mph,0 mph,30.19 in,0.0 in,Mostly Cloudy,2019-10-28T19:00:00Z
+60 F,53 F,78 %,S,5 mph,0 mph,30.21 in,0.0 in,Mostly Cloudy,2019-10-28T20:00:00Z
+60 F,55 F,83 %,ESE,10 mph,0 mph,30.21 in,0.0 in,Cloudy,2019-10-28T21:00:00Z
+61 F,55 F,81 %,ESE,9 mph,0 mph,30.22 in,0.0 in,Cloudy,2019-10-28T22:00:00Z
+64 F,51 F,63 %,N,7 mph,0 mph,30.00 in,0.0 in,Fair,2019-10-28T23:00:00Z
+60 F,57 F,90 %,ESE,7 mph,0 mph,30.23 in,0.0 in,Cloudy,2019-10-29T00:00:00Z
+60 F,56 F,86 %,ESE,7 mph,0 mph,30.23 in,0.0 in,Mostly Cloudy,2019-10-29T01:00:00Z
+59 F,56 F,90 %,E,6 mph,0 mph,30.22 in,0.0 in,Mostly Cloudy,2019-10-29T02:00:00Z
+59 F,56 F,90 %,ESE,8 mph,0 mph,30.22 in,0.0 in,Mostly Cloudy,2019-10-29T03:00:00Z
+59 F,54 F,83 %,ESE,12 mph,0 mph,30.22 in,0.0 in,Cloudy,2019-10-29T04:00:00Z
+59 F,54 F,83 %,E,5 mph,0 mph,30.23 in,0.0 in,Mostly Cloudy,2019-10-29T05:00:00Z
+61 F,53 F,75 %,CALM,0 mph,0 mph,30.24 in,0.0 in,Mostly Cloudy,2019-10-29T06:00:00Z
+61 F,54 F,78 %,CALM,0 mph,0 mph,30.26 in,0.0 in,Mostly Cloudy,2019-10-29T07:00:00Z
+62 F,55 F,78 %,ENE,5 mph,0 mph,30.27 in,0.0 in,Cloudy,2019-10-29T08:00:00Z
+64 F,55 F,72 %,ESE,3 mph,0 mph,30.27 in,0.0 in,Cloudy,2019-10-29T09:00:00Z
+67 F,53 F,61 %,SE,3 mph,0 mph,30.26 in,0.0 in,Cloudy,2019-10-29T10:00:00Z
+68 F,53 F,59 %,SSW,7 mph,0 mph,30.25 in,0.0 in,Cloudy,2019-10-29T11:00:00Z
+68 F,53 F,59 %,S,6 mph,0 mph,30.23 in,0.0 in,Cloudy,2019-10-29T12:00:00Z
+66 F,53 F,63 %,S,7 mph,0 mph,30.22 in,0.0 in,Cloudy,2019-10-29T13:00:00Z
+66 F,54 F,65 %,S,5 mph,0 mph,30.22 in,0.0 in,Cloudy,2019-10-29T14:00:00Z
+66 F,54 F,65 %,S,5 mph,0 mph,30.22 in,0.0 in,Cloudy,2019-10-29T15:00:00Z
+65 F,54 F,68 %,S,3 mph,0 mph,30.22 in,0.0 in,Cloudy,2019-10-29T16:00:00Z
+64 F,56 F,75 %,ESE,6 mph,0 mph,30.22 in,0.0 in,Cloudy,2019-10-29T17:00:00Z
+62 F,53 F,72 %,CALM,0 mph,0 mph,30.23 in,0.0 in,Cloudy,2019-10-29T18:00:00Z
+63 F,53 F,70 %,CALM,0 mph,0 mph,30.24 in,0.0 in,Cloudy,2019-10-29T19:00:00Z
+62 F,54 F,75 %,CALM,0 mph,0 mph,30.24 in,0.0 in,Cloudy,2019-10-29T20:00:00Z
+62 F,54 F,75 %,CALM,0 mph,0 mph,30.25 in,0.0 in,Mostly Cloudy,2019-10-29T21:00:00Z
+61 F,54 F,78 %,CALM,0 mph,0 mph,30.25 in,0.0 in,Mostly Cloudy,2019-10-29T22:00:00Z
+62 F,55 F,78 %,ESE,9 mph,0 mph,30.22 in,0.0 in,Cloudy,2019-10-29T23:00:00Z
+61 F,55 F,81 %,CALM,0 mph,0 mph,30.25 in,0.0 in,Cloudy,2019-10-30T00:00:00Z
+60 F,55 F,83 %,ENE,7 mph,0 mph,30.24 in,0.0 in,Cloudy,2019-10-30T01:00:00Z
+60 F,56 F,86 %,NE,5 mph,0 mph,30.24 in,0.0 in,Cloudy,2019-10-30T02:00:00Z
+60 F,56 F,86 %,NE,5 mph,0 mph,30.23 in,0.0 in,Cloudy,2019-10-30T03:00:00Z
+60 F,56 F,86 %,CALM,0 mph,0 mph,30.24 in,0.0 in,Cloudy,2019-10-30T04:00:00Z
+61 F,55 F,81 %,CALM,0 mph,0 mph,30.24 in,0.0 in,Cloudy,2019-10-30T05:00:00Z
+61 F,55 F,81 %,CALM,0 mph,0 mph,30.25 in,0.0 in,Cloudy,2019-10-30T06:00:00Z
+61 F,56 F,83 %,NE,3 mph,0 mph,30.27 in,0.0 in,Cloudy,2019-10-30T07:00:00Z
+63 F,56 F,78 %,CALM,0 mph,0 mph,30.27 in,0.0 in,Cloudy,2019-10-30T08:00:00Z
+64 F,56 F,75 %,S,6 mph,0 mph,30.25 in,0.0 in,Cloudy,2019-10-30T09:00:00Z
+64 F,56 F,75 %,S,6 mph,0 mph,30.24 in,0.0 in,Cloudy,2019-10-30T10:00:00Z
+65 F,56 F,73 %,CALM,0 mph,0 mph,30.21 in,0.0 in,Cloudy,2019-10-30T11:00:00Z
+66 F,56 F,70 %,CALM,0 mph,0 mph,30.18 in,0.0 in,Cloudy,2019-10-30T12:00:00Z
+67 F,57 F,70 %,SSW,6 mph,0 mph,30.16 in,0.0 in,Cloudy,2019-10-30T13:00:00Z
+66 F,57 F,73 %,S,5 mph,0 mph,30.15 in,0.0 in,Cloudy,2019-10-30T14:00:00Z
+65 F,58 F,78 %,SE,8 mph,0 mph,30.15 in,0.0 in,Cloudy,2019-10-30T15:00:00Z
+64 F,58 F,80 %,SE,9 mph,0 mph,30.14 in,0.0 in,Light Rain,2019-10-30T16:00:00Z
+62 F,59 F,90 %,SE,3 mph,0 mph,30.13 in,0.1 in,Light Rain,2019-10-30T17:00:00Z
+61 F,59 F,93 %,SSE,5 mph,0 mph,30.12 in,0.0 in,Light Rain,2019-10-30T18:00:00Z
+61 F,59 F,93 %,SSE,6 mph,0 mph,30.10 in,0.1 in,Light Rain,2019-10-30T19:00:00Z
+61 F,60 F,97 %,S,6 mph,0 mph,30.10 in,0.0 in,Light Rain,2019-10-30T20:00:00Z
+61 F,60 F,97 %,S,3 mph,0 mph,30.08 in,0.1 in,Light Rain,2019-10-30T21:00:00Z
+62 F,60 F,93 %,SSE,5 mph,0 mph,30.04 in,0.0 in,Cloudy,2019-10-30T22:00:00Z
+61 F,56 F,83 %,E,3 mph,0 mph,30.25 in,0.0 in,Cloudy,2019-10-30T23:00:00Z
+62 F,61 F,96 %,S,5 mph,0 mph,30.01 in,0.0 in,Light Rain,2019-10-31T00:00:00Z
+62 F,61 F,96 %,CALM,0 mph,0 mph,29.98 in,0.1 in,Cloudy,2019-10-31T01:00:00Z
+63 F,62 F,97 %,S,6 mph,0 mph,29.95 in,0.0 in,Light Rain,2019-10-31T02:00:00Z
+64 F,64 F,100 %,S,9 mph,0 mph,29.93 in,0.1 in,Light Rain,2019-10-31T03:00:00Z
+66 F,65 F,96 %,S,12 mph,0 mph,29.92 in,0.0 in,Cloudy,2019-10-31T04:00:00Z
+66 F,65 F,96 %,S,10 mph,0 mph,29.90 in,0.0 in,Light Rain,2019-10-31T05:00:00Z
+67 F,65 F,93 %,S,9 mph,0 mph,29.89 in,0.0 in,Cloudy,2019-10-31T06:00:00Z
+67 F,66 F,97 %,S,13 mph,0 mph,29.89 in,0.0 in,Cloudy,2019-10-31T07:00:00Z
+69 F,67 F,93 %,S,14 mph,0 mph,29.87 in,0.0 in,Cloudy,2019-10-31T08:00:00Z
+69 F,67 F,93 %,S,15 mph,0 mph,29.84 in,0.0 in,Cloudy,2019-10-31T09:00:00Z
+70 F,67 F,90 %,S,12 mph,0 mph,29.83 in,0.0 in,Light Rain,2019-10-31T10:00:00Z
+70 F,68 F,93 %,S,14 mph,0 mph,29.79 in,0.0 in,Light Rain,2019-10-31T11:00:00Z
+72 F,69 F,91 %,S,14 mph,0 mph,29.74 in,0.0 in,Cloudy,2019-10-31T12:00:00Z
+73 F,70 F,90 %,S,17 mph,0 mph,29.69 in,0.0 in,Cloudy,2019-10-31T13:00:00Z
+75 F,69 F,82 %,S,16 mph,0 mph,29.67 in,0.0 in,Cloudy,2019-10-31T14:00:00Z
+75 F,68 F,79 %,S,16 mph,23 mph,29.64 in,0.0 in,Cloudy,2019-10-31T15:00:00Z
+76 F,69 F,79 %,S,18 mph,26 mph,29.60 in,0.0 in,Cloudy,2019-10-31T16:00:00Z
+75 F,68 F,79 %,S,18 mph,24 mph,29.57 in,0.0 in,Cloudy,2019-10-31T17:00:00Z
+77 F,68 F,74 %,S,24 mph,36 mph,29.53 in,0.0 in,Cloudy / Windy,2019-10-31T18:00:00Z
+76 F,68 F,76 %,S,25 mph,36 mph,29.50 in,0.0 in,Light Rain / Windy,2019-10-31T19:00:00Z
+74 F,71 F,91 %,SSW,17 mph,36 mph,29.52 in,0.1 in,Heavy T-Storm,2019-10-31T20:00:00Z
+60 F,58 F,93 %,NW,13 mph,25 mph,29.65 in,0.7 in,T-Storm,2019-10-31T21:00:00Z
+56 F,49 F,77 %,WNW,15 mph,38 mph,29.76 in,0.1 in,Light Rain,2019-10-31T22:00:00Z
+62 F,60 F,93 %,SSE,3 mph,0 mph,30.02 in,0.0 in,Cloudy,2019-10-31T23:00:00Z
+51 F,33 F,50 %,WNW,25 mph,36 mph,29.85 in,0.0 in,Partly Cloudy / Windy,2019-11-01T00:00:00Z
+48 F,32 F,54 %,WNW,21 mph,35 mph,29.92 in,0.0 in,Fair / Windy,2019-11-01T01:00:00Z
+46 F,30 F,54 %,NW,14 mph,24 mph,29.98 in,0.0 in,Fair,2019-11-01T02:00:00Z
+46 F,29 F,51 %,WNW,13 mph,0 mph,30.02 in,0.0 in,Fair,2019-11-01T03:00:00Z
+45 F,29 F,53 %,WNW,10 mph,21 mph,30.06 in,0.0 in,Fair,2019-11-01T04:00:00Z
+45 F,29 F,53 %,WNW,14 mph,0 mph,30.10 in,0.0 in,Fair,2019-11-01T05:00:00Z
+45 F,29 F,53 %,W,6 mph,20 mph,30.13 in,0.0 in,Fair,2019-11-01T06:00:00Z
+47 F,30 F,52 %,WNW,14 mph,0 mph,30.15 in,0.0 in,Fair,2019-11-01T07:00:00Z
+47 F,30 F,52 %,NW,22 mph,0 mph,30.17 in,0.0 in,Fair / Windy,2019-11-01T08:00:00Z
+48 F,30 F,50 %,W,16 mph,25 mph,30.21 in,0.0 in,Partly Cloudy,2019-11-01T09:00:00Z
+51 F,30 F,44 %,WNW,15 mph,23 mph,30.24 in,0.0 in,Partly Cloudy,2019-11-01T10:00:00Z
+52 F,31 F,45 %,NNW,14 mph,22 mph,30.24 in,0.0 in,Fair,2019-11-01T11:00:00Z
+53 F,30 F,41 %,NW,15 mph,22 mph,30.22 in,0.0 in,Fair,2019-11-01T12:00:00Z
+54 F,30 F,40 %,WNW,16 mph,21 mph,30.22 in,0.0 in,Fair,2019-11-01T13:00:00Z
+54 F,30 F,40 %,NW,12 mph,17 mph,30.23 in,0.0 in,Fair,2019-11-01T14:00:00Z
+53 F,30 F,41 %,NNW,13 mph,0 mph,30.24 in,0.0 in,Fair,2019-11-01T15:00:00Z
+51 F,29 F,43 %,NNW,10 mph,0 mph,30.26 in,0.0 in,Fair,2019-11-01T16:00:00Z
+49 F,29 F,46 %,NNW,10 mph,0 mph,30.27 in,0.0 in,Fair,2019-11-01T17:00:00Z
+48 F,29 F,48 %,NNW,10 mph,0 mph,30.29 in,0.0 in,Fair,2019-11-01T18:00:00Z
+46 F,29 F,51 %,N,8 mph,0 mph,30.28 in,0.0 in,Fair,2019-11-01T19:00:00Z
+46 F,30 F,54 %,N,10 mph,0 mph,30.29 in,0.0 in,Fair,2019-11-01T20:00:00Z
+44 F,30 F,58 %,N,10 mph,0 mph,30.30 in,0.0 in,Fair,2019-11-01T21:00:00Z
+44 F,30 F,58 %,N,10 mph,0 mph,30.29 in,0.0 in,Fair,2019-11-01T22:00:00Z
+53 F,43 F,69 %,WNW,12 mph,18 mph,29.80 in,0.0 in,Light Rain,2019-11-01T23:00:00Z
+43 F,29 F,58 %,NNE,14 mph,0 mph,30.28 in,0.0 in,Fair,2019-11-02T00:00:00Z
+41 F,29 F,62 %,NNE,7 mph,0 mph,30.28 in,0.0 in,Fair,2019-11-02T01:00:00Z
+40 F,31 F,70 %,E,7 mph,0 mph,30.27 in,0.0 in,Fair,2019-11-02T02:00:00Z
+40 F,29 F,65 %,CALM,0 mph,0 mph,30.28 in,0.0 in,Fair,2019-11-02T03:00:00Z
+39 F,29 F,67 %,NNE,5 mph,0 mph,30.28 in,0.0 in,Fair,2019-11-02T04:00:00Z
+38 F,31 F,76 %,NNW,6 mph,0 mph,30.25 in,0.0 in,Fair,2019-11-02T05:00:00Z
+38 F,31 F,76 %,N,3 mph,0 mph,30.26 in,0.0 in,Fair,2019-11-02T06:00:00Z
+42 F,32 F,67 %,CALM,0 mph,0 mph,30.27 in,0.0 in,Fair,2019-11-02T07:00:00Z
+45 F,32 F,60 %,CALM,0 mph,0 mph,30.26 in,0.0 in,Fair,2019-11-02T08:00:00Z
+45 F,29 F,53 %,VAR,3 mph,0 mph,30.24 in,0.0 in,Fair,2019-11-02T09:00:00Z
+48 F,28 F,46 %,ESE,3 mph,0 mph,30.21 in,0.0 in,Fair,2019-11-02T10:00:00Z
+51 F,29 F,43 %,CALM,0 mph,0 mph,30.18 in,0.0 in,Fair,2019-11-02T11:00:00Z
+52 F,31 F,45 %,SSE,8 mph,0 mph,30.13 in,0.0 in,Fair,2019-11-02T12:00:00Z
+54 F,31 F,41 %,VAR,3 mph,0 mph,30.11 in,0.0 in,Fair,2019-11-02T13:00:00Z
+55 F,32 F,42 %,SSW,10 mph,0 mph,30.10 in,0.0 in,Fair,2019-11-02T14:00:00Z
+54 F,31 F,41 %,S,5 mph,0 mph,30.08 in,0.0 in,Fair,2019-11-02T15:00:00Z
+51 F,33 F,50 %,SSW,6 mph,0 mph,30.08 in,0.0 in,Fair,2019-11-02T16:00:00Z
+50 F,34 F,54 %,SW,5 mph,0 mph,30.09 in,0.0 in,Fair,2019-11-02T17:00:00Z
+50 F,34 F,54 %,W,3 mph,0 mph,30.10 in,0.0 in,Fair,2019-11-02T18:00:00Z
+47 F,38 F,71 %,WSW,3 mph,0 mph,30.10 in,0.0 in,Fair,2019-11-02T19:00:00Z
+46 F,38 F,73 %,SSW,3 mph,0 mph,30.11 in,0.0 in,Fair,2019-11-02T20:00:00Z
+44 F,37 F,76 %,SW,5 mph,0 mph,30.12 in,0.0 in,Fair,2019-11-02T21:00:00Z
+44 F,36 F,73 %,W,3 mph,0 mph,30.12 in,0.0 in,Fair,2019-11-02T22:00:00Z
+42 F,29 F,60 %,N,10 mph,0 mph,30.29 in,0.0 in,Fair,2019-11-02T23:00:00Z
+43 F,35 F,74 %,WSW,3 mph,0 mph,30.12 in,0.0 in,Fair,2019-11-03T00:00:00Z
+45 F,30 F,56 %,WNW,7 mph,0 mph,30.12 in,0.0 in,Fair,2019-11-03T01:00:00Z
+47 F,30 F,52 %,NW,9 mph,0 mph,30.12 in,0.0 in,Fair,2019-11-03T02:00:00Z
+44 F,30 F,58 %,WNW,5 mph,0 mph,30.12 in,0.0 in,Fair,2019-11-03T03:00:00Z
+43 F,30 F,60 %,W,6 mph,0 mph,30.14 in,0.0 in,Fair,2019-11-03T04:00:00Z
+44 F,29 F,55 %,W,7 mph,0 mph,30.15 in,0.0 in,Fair,2019-11-03T05:00:00Z
+45 F,28 F,52 %,WNW,8 mph,0 mph,30.18 in,0.0 in,Partly Cloudy,2019-11-03T06:00:00Z
+47 F,30 F,52 %,W,7 mph,0 mph,30.21 in,0.0 in,Partly Cloudy,2019-11-03T07:00:00Z
+50 F,29 F,44 %,WNW,8 mph,17 mph,30.23 in,0.0 in,Fair,2019-11-03T08:00:00Z
+51 F,29 F,43 %,W,15 mph,18 mph,30.23 in,0.0 in,Fair,2019-11-03T09:00:00Z
+53 F,29 F,40 %,NW,12 mph,0 mph,30.23 in,0.0 in,Fair,2019-11-03T10:00:00Z
+54 F,27 F,35 %,WNW,16 mph,24 mph,30.21 in,0.0 in,Fair,2019-11-03T11:00:00Z
+56 F,27 F,33 %,WNW,15 mph,21 mph,30.19 in,0.0 in,Fair,2019-11-03T12:00:00Z
+56 F,26 F,32 %,WNW,12 mph,22 mph,30.18 in,0.0 in,Fair,2019-11-03T13:00:00Z
+57 F,26 F,30 %,NNW,8 mph,0 mph,30.18 in,0.0 in,Fair,2019-11-03T14:00:00Z
+56 F,24 F,29 %,W,10 mph,0 mph,30.19 in,0.0 in,Fair,2019-11-03T15:00:00Z
+54 F,23 F,30 %,NW,12 mph,0 mph,30.21 in,0.0 in,Fair,2019-11-03T16:00:00Z
+51 F,25 F,36 %,N,5 mph,0 mph,30.22 in,0.0 in,Fair,2019-11-03T17:00:00Z
+51 F,26 F,38 %,N,5 mph,0 mph,30.23 in,0.0 in,Fair,2019-11-03T18:00:00Z
+48 F,33 F,56 %,CALM,0 mph,0 mph,30.25 in,0.0 in,Fair,2019-11-03T19:00:00Z
+45 F,33 F,63 %,SSW,3 mph,0 mph,30.26 in,0.0 in,Fair,2019-11-03T20:00:00Z
+45 F,33 F,63 %,CALM,0 mph,0 mph,30.27 in,0.0 in,Fair,2019-11-03T21:00:00Z
+44 F,35 F,71 %,CALM,0 mph,0 mph,30.28 in,0.0 in,Fair,2019-11-03T22:00:00Z
+44 F,37 F,76 %,SSW,3 mph,0 mph,30.12 in,0.0 in,Fair,2019-11-03T23:00:00Z
+42 F,35 F,76 %,NE,3 mph,0 mph,30.30 in,0.0 in,Fair,2019-11-04T00:00:00Z
+39 F,35 F,86 %,N,6 mph,0 mph,30.30 in,0.0 in,Fair,2019-11-04T01:00:00Z
+41 F,35 F,79 %,CALM,0 mph,0 mph,30.30 in,0.0 in,Partly Cloudy,2019-11-04T02:00:00Z
+39 F,35 F,86 %,NNW,5 mph,0 mph,30.31 in,0.0 in,Partly Cloudy,2019-11-04T03:00:00Z
+39 F,35 F,86 %,ENE,5 mph,0 mph,30.31 in,0.0 in,Partly Cloudy,2019-11-04T04:00:00Z
+40 F,35 F,83 %,NE,6 mph,0 mph,30.33 in,0.0 in,Fair,2019-11-04T05:00:00Z
+40 F,36 F,86 %,NE,5 mph,0 mph,30.33 in,0.0 in,Fair,2019-11-04T06:00:00Z
+44 F,38 F,79 %,CALM,0 mph,0 mph,30.36 in,0.0 in,Fair,2019-11-04T07:00:00Z
+48 F,38 F,68 %,S,3 mph,0 mph,30.37 in,0.0 in,Fair,2019-11-04T08:00:00Z
+50 F,38 F,63 %,S,9 mph,0 mph,30.36 in,0.0 in,Fair,2019-11-04T09:00:00Z
+56 F,40 F,55 %,S,12 mph,0 mph,30.34 in,0.0 in,Fair,2019-11-04T10:00:00Z
+59 F,36 F,42 %,S,17 mph,0 mph,30.31 in,0.0 in,Partly Cloudy,2019-11-04T11:00:00Z
+60 F,36 F,41 %,S,16 mph,0 mph,30.28 in,0.0 in,Partly Cloudy,2019-11-04T12:00:00Z
+60 F,37 F,42 %,S,15 mph,0 mph,30.26 in,0.0 in,Partly Cloudy,2019-11-04T13:00:00Z
+60 F,38 F,44 %,S,17 mph,0 mph,30.24 in,0.0 in,Partly Cloudy,2019-11-04T14:00:00Z
+60 F,40 F,47 %,S,12 mph,0 mph,30.24 in,0.0 in,Mostly Cloudy,2019-11-04T15:00:00Z
+57 F,41 F,55 %,S,9 mph,0 mph,30.24 in,0.0 in,Mostly Cloudy,2019-11-04T16:00:00Z
+56 F,40 F,55 %,SSE,10 mph,0 mph,30.24 in,0.0 in,Mostly Cloudy,2019-11-04T17:00:00Z
+54 F,40 F,59 %,SSE,9 mph,0 mph,30.24 in,0.0 in,Mostly Cloudy,2019-11-04T18:00:00Z
+54 F,42 F,64 %,S,12 mph,0 mph,30.24 in,0.0 in,Mostly Cloudy,2019-11-04T19:00:00Z
+52 F,43 F,71 %,S,7 mph,0 mph,30.24 in,0.0 in,Mostly Cloudy,2019-11-04T20:00:00Z
+51 F,43 F,74 %,SSW,3 mph,0 mph,30.25 in,0.0 in,Mostly Cloudy,2019-11-04T21:00:00Z
+51 F,44 F,77 %,CALM,0 mph,0 mph,30.24 in,0.0 in,Mostly Cloudy,2019-11-04T22:00:00Z
+49 F,44 F,83 %,SSW,7 mph,0 mph,30.24 in,0.0 in,Mostly Cloudy,2019-11-04T23:00:00Z
+48 F,44 F,86 %,WSW,3 mph,0 mph,30.23 in,0.0 in,Partly Cloudy,2019-11-05T00:00:00Z
+47 F,43 F,86 %,CALM,0 mph,0 mph,30.22 in,0.0 in,Partly Cloudy,2019-11-05T01:00:00Z
+45 F,43 F,93 %,CALM,0 mph,0 mph,30.21 in,0.0 in,Partly Cloudy,2019-11-05T02:00:00Z
+46 F,43 F,89 %,CALM,0 mph,0 mph,30.21 in,0.0 in,Partly Cloudy,2019-11-05T03:00:00Z
+45 F,42 F,90 %,CALM,0 mph,0 mph,30.21 in,0.0 in,Partly Cloudy,2019-11-05T04:00:00Z
+45 F,43 F,93 %,SW,5 mph,0 mph,30.19 in,0.0 in,Partly Cloudy,2019-11-05T05:00:00Z
+45 F,43 F,93 %,SW,5 mph,0 mph,30.19 in,0.0 in,Partly Cloudy,2019-11-05T06:00:00Z
+48 F,44 F,86 %,SW,5 mph,0 mph,30.20 in,0.0 in,Partly Cloudy,2019-11-05T07:00:00Z
+51 F,44 F,77 %,SSW,8 mph,0 mph,30.21 in,0.0 in,Partly Cloudy,2019-11-05T08:00:00Z
+53 F,44 F,71 %,S,9 mph,0 mph,30.19 in,0.0 in,Mostly Cloudy,2019-11-05T09:00:00Z
+55 F,45 F,69 %,SSE,7 mph,0 mph,30.19 in,0.0 in,Mostly Cloudy,2019-11-05T10:00:00Z
+58 F,43 F,58 %,S,5 mph,0 mph,30.17 in,0.0 in,Mostly Cloudy,2019-11-05T11:00:00Z
+61 F,44 F,54 %,S,8 mph,0 mph,30.15 in,0.0 in,Mostly Cloudy,2019-11-05T12:00:00Z
+63 F,42 F,46 %,SSE,7 mph,0 mph,30.15 in,0.0 in,Mostly Cloudy,2019-11-05T13:00:00Z
+62 F,42 F,48 %,S,7 mph,0 mph,30.15 in,0.0 in,Mostly Cloudy,2019-11-05T14:00:00Z
+63 F,41 F,45 %,S,7 mph,0 mph,30.15 in,0.0 in,Mostly Cloudy,2019-11-05T15:00:00Z
+60 F,42 F,51 %,S,7 mph,0 mph,30.16 in,0.0 in,Mostly Cloudy,2019-11-05T16:00:00Z
+58 F,42 F,56 %,SSE,3 mph,0 mph,30.16 in,0.0 in,Mostly Cloudy,2019-11-05T17:00:00Z
+55 F,46 F,72 %,CALM,0 mph,0 mph,30.18 in,0.0 in,Partly Cloudy,2019-11-05T18:00:00Z
+53 F,46 F,77 %,NE,3 mph,0 mph,30.19 in,0.0 in,Partly Cloudy,2019-11-05T19:00:00Z
+53 F,42 F,66 %,NNW,6 mph,0 mph,30.21 in,0.0 in,Mostly Cloudy,2019-11-05T20:00:00Z
+51 F,40 F,66 %,N,8 mph,0 mph,30.23 in,0.0 in,Mostly Cloudy,2019-11-05T21:00:00Z
+52 F,40 F,63 %,NNW,7 mph,0 mph,30.26 in,0.0 in,Partly Cloudy,2019-11-05T22:00:00Z
+51 F,40 F,66 %,N,7 mph,0 mph,30.27 in,0.0 in,Fair,2019-11-05T23:00:00Z
+50 F,40 F,68 %,N,8 mph,0 mph,30.28 in,0.0 in,Fair,2019-11-06T00:00:00Z
+49 F,40 F,71 %,N,10 mph,0 mph,30.29 in,0.0 in,Fair,2019-11-06T01:00:00Z
+48 F,39 F,71 %,N,7 mph,0 mph,30.31 in,0.0 in,Fair,2019-11-06T02:00:00Z
+46 F,38 F,73 %,NNW,8 mph,0 mph,30.34 in,0.0 in,Fair,2019-11-06T03:00:00Z
+46 F,36 F,68 %,NNW,14 mph,0 mph,30.37 in,0.0 in,Fair,2019-11-06T04:00:00Z
+45 F,34 F,65 %,NNW,8 mph,0 mph,30.39 in,0.0 in,Fair,2019-11-06T05:00:00Z
+45 F,33 F,63 %,NNW,7 mph,0 mph,30.42 in,0.0 in,Fair,2019-11-06T06:00:00Z
+50 F,34 F,54 %,VAR,3 mph,0 mph,30.44 in,0.0 in,Fair,2019-11-06T07:00:00Z
+52 F,34 F,50 %,N,8 mph,0 mph,30.46 in,0.0 in,Fair,2019-11-06T08:00:00Z
+53 F,33 F,47 %,N,8 mph,0 mph,30.47 in,0.0 in,Fair,2019-11-06T09:00:00Z
+56 F,33 F,42 %,VAR,3 mph,0 mph,30.47 in,0.0 in,Fair,2019-11-06T10:00:00Z
+57 F,31 F,37 %,NNW,6 mph,0 mph,30.45 in,0.0 in,Fair,2019-11-06T11:00:00Z
+58 F,30 F,35 %,CALM,0 mph,0 mph,30.41 in,0.0 in,Fair,2019-11-06T12:00:00Z
+59 F,32 F,36 %,S,3 mph,0 mph,30.40 in,0.0 in,Fair,2019-11-06T13:00:00Z
+59 F,31 F,35 %,CALM,0 mph,0 mph,30.38 in,0.0 in,Fair,2019-11-06T14:00:00Z
+58 F,35 F,42 %,S,8 mph,0 mph,30.38 in,0.0 in,Fair,2019-11-06T15:00:00Z
+55 F,36 F,49 %,S,7 mph,0 mph,30.38 in,0.0 in,Fair,2019-11-06T16:00:00Z
+55 F,42 F,62 %,S,3 mph,0 mph,30.38 in,0.0 in,Fair,2019-11-06T17:00:00Z
+52 F,39 F,61 %,SSE,5 mph,0 mph,30.38 in,0.0 in,Fair,2019-11-06T18:00:00Z
+51 F,38 F,61 %,S,7 mph,0 mph,30.38 in,0.0 in,Fair,2019-11-06T19:00:00Z
+50 F,37 F,61 %,S,10 mph,0 mph,30.37 in,0.0 in,Fair,2019-11-06T20:00:00Z
+49 F,39 F,69 %,S,10 mph,0 mph,30.38 in,0.0 in,Mostly Cloudy,2019-11-06T21:00:00Z
+47 F,39 F,74 %,S,7 mph,0 mph,30.36 in,0.0 in,Mostly Cloudy,2019-11-06T22:00:00Z
+46 F,39 F,76 %,SSW,5 mph,0 mph,30.36 in,0.0 in,Partly Cloudy,2019-11-06T23:00:00Z
+46 F,40 F,79 %,S,7 mph,0 mph,30.33 in,0.0 in,Mostly Cloudy,2019-11-07T00:00:00Z
+48 F,40 F,74 %,S,8 mph,0 mph,30.31 in,0.0 in,Cloudy,2019-11-07T01:00:00Z
+48 F,40 F,74 %,SSW,7 mph,0 mph,30.29 in,0.0 in,Cloudy,2019-11-07T02:00:00Z
+48 F,41 F,77 %,S,7 mph,0 mph,30.28 in,0.0 in,Cloudy,2019-11-07T03:00:00Z
+49 F,42 F,77 %,S,12 mph,0 mph,30.25 in,0.0 in,Cloudy,2019-11-07T04:00:00Z
+49 F,40 F,71 %,S,7 mph,0 mph,30.25 in,0.0 in,Cloudy,2019-11-07T05:00:00Z
+50 F,40 F,68 %,SSW,9 mph,0 mph,30.23 in,0.0 in,Mostly Cloudy,2019-11-07T06:00:00Z
+50 F,41 F,71 %,S,7 mph,0 mph,30.23 in,0.0 in,Cloudy,2019-11-07T07:00:00Z
+51 F,42 F,71 %,S,14 mph,0 mph,30.21 in,0.0 in,Cloudy,2019-11-07T08:00:00Z
+53 F,40 F,61 %,S,12 mph,0 mph,30.20 in,0.0 in,Cloudy,2019-11-07T09:00:00Z
+54 F,42 F,64 %,SSW,10 mph,0 mph,30.17 in,0.0 in,Cloudy,2019-11-07T10:00:00Z
+56 F,44 F,64 %,S,12 mph,0 mph,30.13 in,0.0 in,Cloudy,2019-11-07T11:00:00Z
+57 F,46 F,67 %,SW,12 mph,0 mph,30.07 in,0.0 in,Cloudy,2019-11-07T12:00:00Z
+60 F,47 F,62 %,SSW,8 mph,0 mph,30.04 in,0.0 in,Cloudy,2019-11-07T13:00:00Z
+61 F,48 F,62 %,SSW,5 mph,0 mph,30.00 in,0.0 in,Cloudy,2019-11-07T14:00:00Z
+61 F,48 F,62 %,WNW,6 mph,0 mph,30.00 in,0.0 in,Cloudy,2019-11-07T15:00:00Z
+59 F,49 F,69 %,N,10 mph,0 mph,30.03 in,0.0 in,Light Rain,2019-11-07T16:00:00Z
+55 F,51 F,86 %,N,9 mph,0 mph,30.05 in,0.0 in,Light Rain,2019-11-07T17:00:00Z
+55 F,51 F,86 %,N,8 mph,0 mph,30.05 in,0.0 in,Light Rain,2019-11-07T18:00:00Z
+54 F,50 F,86 %,NNW,12 mph,0 mph,30.04 in,0.0 in,Light Rain,2019-11-07T19:00:00Z
+52 F,49 F,89 %,N,8 mph,0 mph,30.05 in,0.0 in,Light Rain,2019-11-07T20:00:00Z
+50 F,44 F,80 %,NNW,20 mph,0 mph,30.07 in,0.0 in,Light Rain,2019-11-07T21:00:00Z
+49 F,41 F,74 %,NNW,15 mph,0 mph,30.09 in,0.0 in,Cloudy,2019-11-07T22:00:00Z
+47 F,37 F,68 %,NNW,10 mph,22 mph,30.10 in,0.0 in,Cloudy,2019-11-07T23:00:00Z
+45 F,35 F,68 %,NNW,16 mph,0 mph,30.11 in,0.0 in,Cloudy,2019-11-08T00:00:00Z
+44 F,32 F,63 %,NNW,16 mph,26 mph,30.13 in,0.0 in,Cloudy,2019-11-08T01:00:00Z
+42 F,31 F,65 %,NNW,13 mph,0 mph,30.13 in,0.0 in,Fair,2019-11-08T02:00:00Z
+41 F,30 F,65 %,NNW,16 mph,23 mph,30.14 in,0.0 in,Mostly Cloudy,2019-11-08T03:00:00Z
+41 F,24 F,51 %,NNW,16 mph,28 mph,30.17 in,0.0 in,Mostly Cloudy,2019-11-08T04:00:00Z
+39 F,24 F,55 %,NNW,18 mph,0 mph,30.20 in,0.0 in,Partly Cloudy,2019-11-08T05:00:00Z
+38 F,21 F,51 %,NW,14 mph,26 mph,30.22 in,0.0 in,Partly Cloudy,2019-11-08T06:00:00Z
+39 F,22 F,50 %,NNW,14 mph,25 mph,30.25 in,0.0 in,Partly Cloudy,2019-11-08T07:00:00Z
+40 F,22 F,49 %,NNW,23 mph,29 mph,30.27 in,0.0 in,Fair / Windy,2019-11-08T08:00:00Z
+42 F,22 F,45 %,NNW,16 mph,26 mph,30.28 in,0.0 in,Fair,2019-11-08T09:00:00Z
+42 F,21 F,43 %,NNW,17 mph,24 mph,30.28 in,0.0 in,Partly Cloudy,2019-11-08T10:00:00Z
+43 F,22 F,43 %,NW,14 mph,0 mph,30.27 in,0.0 in,Mostly Cloudy,2019-11-08T11:00:00Z
+44 F,22 F,42 %,NNW,16 mph,0 mph,30.26 in,0.0 in,Mostly Cloudy,2019-11-08T12:00:00Z
+43 F,19 F,38 %,WNW,15 mph,22 mph,30.26 in,0.0 in,Mostly Cloudy,2019-11-08T13:00:00Z
+43 F,19 F,38 %,NNW,14 mph,26 mph,30.26 in,0.0 in,Mostly Cloudy,2019-11-08T14:00:00Z
+42 F,19 F,40 %,NW,14 mph,0 mph,30.27 in,0.0 in,Mostly Cloudy,2019-11-08T15:00:00Z
+41 F,19 F,41 %,NW,10 mph,0 mph,30.29 in,0.0 in,Mostly Cloudy,2019-11-08T16:00:00Z
+40 F,19 F,43 %,WNW,13 mph,18 mph,30.31 in,0.0 in,Partly Cloudy,2019-11-08T17:00:00Z
+39 F,20 F,46 %,WNW,10 mph,0 mph,30.34 in,0.0 in,Mostly Cloudy,2019-11-08T18:00:00Z
+39 F,20 F,46 %,W,8 mph,0 mph,30.35 in,0.0 in,Partly Cloudy,2019-11-08T19:00:00Z
+38 F,19 F,47 %,WNW,12 mph,0 mph,30.36 in,0.0 in,Partly Cloudy,2019-11-08T20:00:00Z
+37 F,18 F,46 %,NW,10 mph,0 mph,30.38 in,0.0 in,Partly Cloudy,2019-11-08T21:00:00Z
+36 F,19 F,50 %,NNW,10 mph,0 mph,30.37 in,0.0 in,Mostly Cloudy,2019-11-08T22:00:00Z
+35 F,19 F,52 %,NNW,10 mph,0 mph,30.36 in,0.0 in,Mostly Cloudy,2019-11-08T23:00:00Z
+34 F,19 F,54 %,NW,10 mph,0 mph,30.36 in,0.0 in,Mostly Cloudy,2019-11-09T00:00:00Z
+33 F,20 F,59 %,NNW,9 mph,0 mph,30.35 in,0.0 in,Mostly Cloudy,2019-11-09T01:00:00Z
+32 F,22 F,66 %,NNW,5 mph,0 mph,30.35 in,0.0 in,Mostly Cloudy,2019-11-09T02:00:00Z
+31 F,22 F,69 %,NNW,5 mph,0 mph,30.35 in,0.0 in,Mostly Cloudy,2019-11-09T03:00:00Z
+32 F,23 F,69 %,ENE,7 mph,0 mph,30.36 in,0.0 in,Fair,2019-11-09T04:00:00Z
+32 F,23 F,69 %,ENE,7 mph,0 mph,30.37 in,0.0 in,Fair,2019-11-09T05:00:00Z
+32 F,21 F,64 %,ENE,5 mph,0 mph,30.36 in,0.0 in,Fair,2019-11-09T06:00:00Z
+35 F,22 F,59 %,CALM,0 mph,0 mph,30.37 in,0.0 in,Fair,2019-11-09T07:00:00Z
+37 F,22 F,54 %,ESE,6 mph,0 mph,30.37 in,0.0 in,Partly Cloudy,2019-11-09T08:00:00Z
+39 F,23 F,53 %,SE,3 mph,0 mph,30.35 in,0.0 in,Fair,2019-11-09T09:00:00Z
+42 F,23 F,47 %,S,8 mph,0 mph,30.34 in,0.0 in,Fair,2019-11-09T10:00:00Z
+43 F,22 F,43 %,S,8 mph,0 mph,30.31 in,0.0 in,Partly Cloudy,2019-11-09T11:00:00Z
+45 F,23 F,42 %,S,13 mph,0 mph,30.26 in,0.0 in,Mostly Cloudy,2019-11-09T12:00:00Z
+44 F,21 F,40 %,SW,9 mph,0 mph,30.23 in,0.0 in,Mostly Cloudy,2019-11-09T13:00:00Z
+45 F,24 F,44 %,S,8 mph,0 mph,30.22 in,0.0 in,Mostly Cloudy,2019-11-09T14:00:00Z
+45 F,24 F,44 %,S,9 mph,0 mph,30.21 in,0.0 in,Mostly Cloudy,2019-11-09T15:00:00Z
+43 F,24 F,47 %,SSE,10 mph,0 mph,30.20 in,0.0 in,Mostly Cloudy,2019-11-09T16:00:00Z
+41 F,26 F,55 %,SSE,5 mph,0 mph,30.20 in,0.0 in,Mostly Cloudy,2019-11-09T17:00:00Z
+41 F,26 F,55 %,SSE,7 mph,0 mph,30.20 in,0.0 in,Mostly Cloudy,2019-11-09T18:00:00Z
+40 F,27 F,60 %,SSE,7 mph,0 mph,30.19 in,0.0 in,Partly Cloudy,2019-11-09T19:00:00Z
+38 F,27 F,65 %,SSW,5 mph,0 mph,30.20 in,0.0 in,Mostly Cloudy,2019-11-09T20:00:00Z
+39 F,27 F,62 %,SSE,8 mph,0 mph,30.18 in,0.0 in,Partly Cloudy,2019-11-09T21:00:00Z
+39 F,30 F,70 %,S,6 mph,0 mph,30.18 in,0.0 in,Mostly Cloudy,2019-11-09T22:00:00Z
+37 F,30 F,76 %,SSW,5 mph,0 mph,30.17 in,0.0 in,Mostly Cloudy,2019-11-09T23:00:00Z
+37 F,31 F,79 %,WSW,3 mph,0 mph,30.15 in,0.0 in,Cloudy,2019-11-10T00:00:00Z
+37 F,32 F,82 %,SW,3 mph,0 mph,30.13 in,0.0 in,Cloudy,2019-11-10T01:00:00Z
+37 F,32 F,82 %,SSW,5 mph,0 mph,30.12 in,0.0 in,Cloudy,2019-11-10T02:00:00Z
+39 F,32 F,76 %,SSW,9 mph,0 mph,30.10 in,0.0 in,Fair,2019-11-10T03:00:00Z
+40 F,30 F,68 %,SSW,7 mph,0 mph,30.11 in,0.0 in,Cloudy,2019-11-10T04:00:00Z
+40 F,31 F,70 %,S,8 mph,0 mph,30.10 in,0.0 in,Cloudy,2019-11-10T05:00:00Z
+40 F,29 F,65 %,SSW,9 mph,0 mph,30.10 in,0.0 in,Mostly Cloudy,2019-11-10T06:00:00Z
+41 F,30 F,65 %,SSW,8 mph,0 mph,30.12 in,0.0 in,Mostly Cloudy,2019-11-10T07:00:00Z
+43 F,31 F,62 %,S,7 mph,0 mph,30.11 in,0.0 in,Mostly Cloudy,2019-11-10T08:00:00Z
+47 F,34 F,61 %,S,9 mph,0 mph,30.11 in,0.0 in,Partly Cloudy,2019-11-10T09:00:00Z
+49 F,33 F,54 %,SSE,9 mph,0 mph,30.10 in,0.0 in,Partly Cloudy,2019-11-10T10:00:00Z
+52 F,34 F,50 %,S,10 mph,0 mph,30.06 in,0.0 in,Mostly Cloudy,2019-11-10T11:00:00Z
+53 F,36 F,52 %,S,13 mph,0 mph,30.04 in,0.0 in,Mostly Cloudy,2019-11-10T12:00:00Z
+55 F,35 F,47 %,S,8 mph,0 mph,30.04 in,0.0 in,Cloudy,2019-11-10T13:00:00Z
+55 F,37 F,51 %,SSE,5 mph,0 mph,30.03 in,0.0 in,Cloudy,2019-11-10T14:00:00Z
+55 F,37 F,51 %,S,5 mph,0 mph,30.03 in,0.0 in,Mostly Cloudy,2019-11-10T15:00:00Z
+53 F,39 F,59 %,SSE,5 mph,0 mph,30.03 in,0.0 in,Mostly Cloudy,2019-11-10T16:00:00Z
+53 F,36 F,52 %,SSW,6 mph,0 mph,30.03 in,0.0 in,Mostly Cloudy,2019-11-10T17:00:00Z
+51 F,36 F,56 %,SW,3 mph,0 mph,30.04 in,0.0 in,Mostly Cloudy,2019-11-10T18:00:00Z
+50 F,43 F,77 %,CALM,0 mph,0 mph,30.05 in,0.0 in,Mostly Cloudy,2019-11-10T19:00:00Z
+49 F,41 F,74 %,CALM,0 mph,0 mph,30.04 in,0.0 in,Mostly Cloudy,2019-11-10T20:00:00Z
+48 F,39 F,71 %,SSW,3 mph,0 mph,30.03 in,0.0 in,Mostly Cloudy,2019-11-10T21:00:00Z
+48 F,39 F,71 %,CALM,0 mph,0 mph,30.03 in,0.0 in,Partly Cloudy,2019-11-10T22:00:00Z
+47 F,43 F,86 %,CALM,0 mph,0 mph,30.04 in,0.0 in,Partly Cloudy,2019-11-10T23:00:00Z
+45 F,42 F,90 %,CALM,0 mph,0 mph,30.05 in,0.0 in,Fair,2019-11-11T00:00:00Z
+45 F,40 F,82 %,NNE,3 mph,0 mph,30.04 in,0.0 in,Fair,2019-11-11T01:00:00Z
+45 F,41 F,86 %,CALM,0 mph,0 mph,30.05 in,0.0 in,Fair,2019-11-11T02:00:00Z
+42 F,39 F,89 %,SW,3 mph,0 mph,30.05 in,0.0 in,Partly Cloudy,2019-11-11T03:00:00Z
+43 F,40 F,89 %,CALM,0 mph,0 mph,30.06 in,0.0 in,Mostly Cloudy,2019-11-11T04:00:00Z
+42 F,39 F,89 %,CALM,0 mph,0 mph,30.07 in,0.0 in,Mostly Cloudy,2019-11-11T05:00:00Z
+42 F,39 F,89 %,SSW,3 mph,0 mph,30.08 in,0.0 in,Mostly Cloudy,2019-11-11T06:00:00Z
+45 F,42 F,90 %,SSW,5 mph,0 mph,30.09 in,0.0 in,Mostly Cloudy,2019-11-11T07:00:00Z
+48 F,44 F,86 %,S,6 mph,0 mph,30.09 in,0.0 in,Mostly Cloudy,2019-11-11T08:00:00Z
+51 F,44 F,77 %,S,7 mph,0 mph,30.08 in,0.0 in,Mostly Cloudy,2019-11-11T09:00:00Z
+55 F,44 F,67 %,S,8 mph,0 mph,30.06 in,0.0 in,Mostly Cloudy,2019-11-11T10:00:00Z
+60 F,43 F,53 %,S,8 mph,0 mph,30.04 in,0.0 in,Mostly Cloudy,2019-11-11T11:00:00Z
+64 F,43 F,46 %,S,7 mph,0 mph,30.00 in,0.0 in,Mostly Cloudy,2019-11-11T12:00:00Z
+68 F,41 F,37 %,S,9 mph,0 mph,29.97 in,0.0 in,Mostly Cloudy,2019-11-11T13:00:00Z
+67 F,40 F,37 %,S,10 mph,0 mph,29.94 in,0.0 in,Mostly Cloudy,2019-11-11T14:00:00Z
+64 F,43 F,46 %,S,12 mph,0 mph,29.92 in,0.0 in,Mostly Cloudy,2019-11-11T15:00:00Z
+63 F,42 F,46 %,SSE,13 mph,0 mph,29.90 in,0.0 in,Mostly Cloudy,2019-11-11T16:00:00Z
+60 F,44 F,55 %,S,9 mph,0 mph,29.87 in,0.0 in,Mostly Cloudy,2019-11-11T17:00:00Z
+58 F,45 F,62 %,S,9 mph,0 mph,29.88 in,0.0 in,Partly Cloudy,2019-11-11T18:00:00Z
+56 F,47 F,72 %,S,12 mph,0 mph,29.86 in,0.0 in,Partly Cloudy,2019-11-11T19:00:00Z
+57 F,47 F,69 %,S,12 mph,0 mph,29.86 in,0.0 in,Partly Cloudy,2019-11-11T20:00:00Z
+58 F,45 F,62 %,S,13 mph,0 mph,29.84 in,0.0 in,Cloudy,2019-11-11T21:00:00Z
+60 F,42 F,51 %,SSW,14 mph,0 mph,29.82 in,0.0 in,Cloudy,2019-11-11T22:00:00Z
+60 F,41 F,49 %,SSW,14 mph,0 mph,29.80 in,0.0 in,Cloudy,2019-11-11T23:00:00Z
