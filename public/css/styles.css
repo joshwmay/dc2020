@@ -1,14 +1,16 @@
-/* #DDFF0D, #07EB07, #44FFC7, #0C9BF0, #140FFF */
-
+/* #e51030, #07EB07, #44FFC7, #0C9BF0, #140FFF */
+header {
+    background-color: #e51030
+}
 body {
-    background-color: #140FFF
+    background-color: #FFF
 }
 
 h1, h2, p {
     display: flex;
     justify-content: center;
     text-justify: center;
-    color: #DDFF0D
+    color: #ffd600
 }
 
 h3{
@@ -24,15 +26,13 @@ h3{
     text-align: center;
     height: 200px;
     width: 200px;
-    background-color: #44FFC7;
-    color: #0C9BF0;
+    background-color: #9e9e9e;
+    color: #ffd600;
     margin: 20px;
     align-items: center;
 }
 
 .tableauPlaceholder {
-    display: flex;
-    justify-content: center;
     padding-top: 10px; 
     padding-bottom: 10px;
 }
