@@ -192,6 +192,7 @@
       <column caption='Pedestrians' datatype='integer' name='[pedestrians]' role='measure' type='quantitative' />
       <column caption='Time' datatype='datetime' name='[time]' role='dimension' type='ordinal' />
       <column caption='Trucks' datatype='integer' name='[trucks]' role='measure' type='quantitative' />
+      <column-instance column='[location]' derivation='None' name='[none:location:nk]' pivot='key' type='nominal' />
       <extract count='-1' enabled='true' units='records'>
         <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Luke Gibson/Documents/My Tableau Repository/Datasources/dots_data.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='02/22/2020 06:15:03 PM' username='tableau_internal_user'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
@@ -346,7 +347,43 @@
           </metadata-records>
         </connection>
       </extract>
-      <layout dim-ordering='alphabetic' dim-percentage='0.412983' measure-ordering='alphabetic' measure-percentage='0.587017' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.383978' measure-ordering='alphabetic' measure-percentage='0.616022' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:location:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Campus_Dr_&amp;_Presidential_Dr&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Regents_Dr_&amp;_Stadium_Dr_2&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Regents_Dr_&amp;_Stadium_Dr_1&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Stadium_Dr_East_Of_Regents_Dr&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;South_Gate_Northern_View&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;University_Blvd_&amp;_Paint_Branch_Dr&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Paint_Branch_Dr_At_Campus_Dr&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Regents_Dr_&amp;_Stadium_Dr_3&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Campus_Dr_At_Paint_Branch_Dr&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;South_Gate_South_View&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
@@ -468,20 +505,20 @@
       </table>
       <simple-id uuid='{A89B2C0A-2A16-4EDC-A82E-7FED786B5C42}' />
     </worksheet>
-    <worksheet name='Monday Trend per Location'>
+    <worksheet name='Monday 1'>
       <table>
         <view>
           <datasources>
             <datasource caption='dots_data' name='federated.0sk5w8e0nf777x12qqksc1xe6yr7' />
           </datasources>
           <datasource-dependencies datasource='federated.0sk5w8e0nf777x12qqksc1xe6yr7'>
+            <column caption='Cars' datatype='integer' name='[cars]' role='measure' type='quantitative' />
             <column caption='Location' datatype='string' name='[location]' role='dimension' type='nominal' />
             <column-instance column='[time]' derivation='MDY' name='[md:time:ok]' pivot='key' type='ordinal' />
             <column-instance column='[location]' derivation='None' name='[none:location:nk]' pivot='key' type='nominal' />
-            <column-instance column='[total]' derivation='Sum' name='[sum:total:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[time]' derivation='Hour-Trunc' name='[thr:time:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[cars]' derivation='Sum' name='[sum:cars:qk]' pivot='key' type='quantitative' />
             <column caption='Time' datatype='datetime' name='[time]' role='dimension' type='ordinal' />
-            <column datatype='integer' name='[total]' role='measure' type='quantitative' />
+            <column-instance column='[time]' derivation='Minute-Trunc' name='[tmi:time:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[md:time:ok]'>
             <groupfilter function='member' level='[md:time:ok]' member='20191104' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
@@ -497,16 +534,96 @@
             <view>
               <breakdown value='auto' />
             </view>
-            <mark class='Automatic' />
+            <mark class='Line' />
             <encodings>
               <color column='[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[none:location:nk]' />
             </encodings>
           </pane>
         </panes>
-        <rows>[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[sum:total:qk]</rows>
-        <cols>[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[thr:time:qk]</cols>
+        <rows>[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[sum:cars:qk]</rows>
+        <cols>[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[tmi:time:qk]</cols>
       </table>
       <simple-id uuid='{629A02EE-4A1B-4F07-878B-8674887A434F}' />
+    </worksheet>
+    <worksheet name='Monday 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dots_data' name='federated.0sk5w8e0nf777x12qqksc1xe6yr7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sk5w8e0nf777x12qqksc1xe6yr7'>
+            <column caption='Cars' datatype='integer' name='[cars]' role='measure' type='quantitative' />
+            <column caption='Location' datatype='string' name='[location]' role='dimension' type='nominal' />
+            <column-instance column='[time]' derivation='MDY' name='[md:time:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[location]' derivation='None' name='[none:location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[cars]' derivation='Sum' name='[sum:cars:qk]' pivot='key' type='quantitative' />
+            <column caption='Time' datatype='datetime' name='[time]' role='dimension' type='ordinal' />
+            <column-instance column='[time]' derivation='Minute-Trunc' name='[tmi:time:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[md:time:ok]'>
+            <groupfilter function='member' level='[md:time:ok]' member='20191101' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[md:time:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[none:location:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[sum:cars:qk]</rows>
+        <cols>[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[tmi:time:qk]</cols>
+      </table>
+      <simple-id uuid='{08ED5FD9-55C1-4222-9C9F-CB976B87FDDD}' />
+    </worksheet>
+    <worksheet name='Monday 2 (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dots_data' name='federated.0sk5w8e0nf777x12qqksc1xe6yr7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sk5w8e0nf777x12qqksc1xe6yr7'>
+            <column caption='Cars' datatype='integer' name='[cars]' role='measure' type='quantitative' />
+            <column caption='Location' datatype='string' name='[location]' role='dimension' type='nominal' />
+            <column-instance column='[time]' derivation='MDY' name='[md:time:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[location]' derivation='None' name='[none:location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[cars]' derivation='Sum' name='[sum:cars:qk]' pivot='key' type='quantitative' />
+            <column caption='Time' datatype='datetime' name='[time]' role='dimension' type='ordinal' />
+            <column-instance column='[time]' derivation='Minute-Trunc' name='[tmi:time:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[md:time:ok]'>
+            <groupfilter function='member' level='[md:time:ok]' member='20191108' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[md:time:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[none:location:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[sum:cars:qk]</rows>
+        <cols>[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[tmi:time:qk]</cols>
+      </table>
+      <simple-id uuid='{9A603289-9552-45CA-8E64-6EA12EA46005}' />
     </worksheet>
     <worksheet name='Overall Trend'>
       <table>
@@ -663,26 +780,6 @@
       </table>
       <simple-id uuid='{1DA74B8D-20E7-4F83-85D6-4BD43132CF9A}' />
     </worksheet>
-    <worksheet name='Sheet 8'>
-      <table>
-        <view>
-          <datasources />
-          <aggregation value='true' />
-        </view>
-        <style />
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Automatic' />
-          </pane>
-        </panes>
-        <rows />
-        <cols />
-      </table>
-      <simple-id uuid='{76C6AD14-91A8-4DF7-BD2B-B2CF84D629F1}' />
-    </worksheet>
     <worksheet name='Trend per Type'>
       <table>
         <view>
@@ -751,6 +848,57 @@
     </worksheet>
   </worksheets>
   <dashboards>
+    <dashboard name='Dashboard 2'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='51750' id='9' name='Monday 2' w='98400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='46250' id='10' name='Monday 2 (2)' w='98400' x='800' y='52750'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='1' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='2' param='vert' type='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{265422F4-3989-4B85-A730-D1136FEB8A85}' />
+    </dashboard>
     <dashboard name='Saturday Comparison'>
       <style />
       <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
@@ -798,8 +946,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='18' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='19' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='20' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='21' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Saturday Football Game' w='82400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1011,7 +1159,7 @@
       </viewpoint>
       <simple-id uuid='{5FFA5F58-08FB-496D-A840-21D63153AF7E}' />
     </window>
-    <window class='worksheet' maximized='true' name='Daily Trend per Location'>
+    <window class='worksheet' name='Daily Trend per Location'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1039,7 +1187,7 @@
       </cards>
       <simple-id uuid='{18F8B1C6-A7D1-4F89-A678-D58AA51D5740}' />
     </window>
-    <window class='worksheet' name='Monday Trend per Location'>
+    <window class='worksheet' name='Monday 1'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1067,7 +1215,7 @@
       </cards>
       <simple-id uuid='{24AC7B09-33D6-49A0-BA04-ECC92356A9E0}' />
     </window>
-    <window class='worksheet' name='Sheet 8'>
+    <window class='worksheet' name='Monday 2'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1087,8 +1235,53 @@
             <card type='title' />
           </strip>
         </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[none:location:nk]' type='color' />
+          </strip>
+        </edge>
       </cards>
-      <simple-id uuid='{3382D579-8070-4C84-B8BD-D3577E6BB5A1}' />
+      <simple-id uuid='{1D1A190C-551B-4F16-9DBE-F58425EDCA48}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Monday 2 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0sk5w8e0nf777x12qqksc1xe6yr7].[none:location:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{26E9E28E-B2B9-4AF5-B942-1A8322317FE1}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Monday 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Monday 2 (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{C9FC9680-796D-4963-943A-A0A65418A149}' />
     </window>
   </windows>
 </workbook>
