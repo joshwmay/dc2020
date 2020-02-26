@@ -1,4 +1,4 @@
-Temperature,Dew Point,Humidity,Wind,Wind Speed,Wind Gust,Pressure,Precip.,Condition,DateTime
+Temperature,Dew Point,Humidity,Wind,Wind Speed,Wind Gust,Pressure,Precip.,Condition,time
 63 F,50 F,63 %,N,8 mph,0 mph,30.02 in,0.0 in,T-Storm,2019-10-28T00:00:00Z
 61 F,48 F,62 %,N,6 mph,0 mph,30.02 in,0.0 in,Fair,2019-10-28T01:00:00Z
 59 F,49 F,69 %,N,6 mph,0 mph,30.04 in,0.0 in,Fair,2019-10-28T02:00:00Z
