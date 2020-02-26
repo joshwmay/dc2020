@@ -3,7 +3,7 @@ header {
     background-color: #e51030
 }
 body {
-    background-color: #FFF
+    background-color: #FFF;
 }
 
 h1, h2, p {
@@ -35,4 +35,19 @@ h3{
 .tableauPlaceholder {
     padding-top: 10px; 
     padding-bottom: 10px;
+}
+
+#viz1582670727704.tableauPlaceholder{
+    display:flex;
+    justify-content: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    max-width: 100%;
+    max-height: 100%;
 }
