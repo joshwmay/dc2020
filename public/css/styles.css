@@ -46,7 +46,26 @@ a {
     justify-content: center;    
 }
 
+.mp4 {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-content: center;
+    align-items: center;
+}
 
+.mp4 iframe, .mp4 object, .mp4 embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
 
 
 .img {
@@ -56,16 +75,13 @@ a {
     align-items: center;
 }
 
-.mp4 {
+
+
+button {
     display: flex;
     justify-content: center;
-    flex-direction:column;
-    align-content: center;
-    align-items: center;
-}
-
-.mp4 button {
-    width: 125px;
+    width: 100%;
+    height:25px;
 }
 
 
