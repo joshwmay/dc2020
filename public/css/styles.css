@@ -1,37 +1,65 @@
 /* #FFF, #e51030, #ffd600, #9e9e9e, #140FFF */
 header {
     background-color: black;
-    height: 150px;
+    height: 160px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
-footer h1, footer p, h3 p a, h3 p {
+footer h1, footer p, h3 p a, footer h3 p {
     color: #e51030;
     font-size: 20px;
+    font-family: "Barlow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
 }
 
 header h3 p, header h3 p a {
     color:#ffd600 ;
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: underline;
+    font-family: "Barlow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Barlow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 20px;
 }
 
 body {
     background-color: #9e9e9e;
+    font-size: 0.8rem;
 }
 
 .wrapper {
     background-color: #FFF;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
-h1, h2, p {
+.wrapper p {    
+  font-family: "Barlow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+}
+
+.wrapper a {
+  font-family: "Barlow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+h1, h2, h3 p {
     display: flex;
     justify-content: center;
     text-justify: center;
-    color: #ffd600
+    color: #ffd600;
+}
+
+h1 , .h1{
+  font-stretch: expanded;
+  font-family: "Barlow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: bold;
+  font-size: 30px;
 }
 
 h3{
@@ -52,13 +80,16 @@ h3{
     width: 300px;
     background-color: #e51030;
     color: #ffd600;
-    margin: 20px;    
-}
-
-a {
+    margin: 20px;        
     text-decoration: none;
+    font-stretch: expanded;
+    font-family: "Barlow", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: +170%;  
     font-style: bold;
+} 
+
+.rows a {
+    text-decoration: none;
 }
 
 .rows {
@@ -82,8 +113,11 @@ img {
 button {
     display: flex;
     justify-content: center;
+    justify-self: center;
+    align-self: center;
     width: 100%;
     height:25px;
+    margin-bottom: 10px;
 }
 
 
