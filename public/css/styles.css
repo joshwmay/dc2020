@@ -6,6 +6,11 @@ header {
     margin-top: 10px;
 }
 
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 footer h1, footer p, h3 p a, footer h3 p {
     color: #e51030;
     font-size: 20px;
@@ -59,7 +64,8 @@ h1, h2, h3 p {
 h1 , .h1{
   font-stretch: expanded;
   font-family: "Barlow", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: bold;
+  font-style: bolder;
+  font-weight: +20px;
   font-size: 30px;
 }
 
@@ -118,6 +124,16 @@ button {
     height:25px;
     margin-bottom: 10px;
     padding: 5px;
+}
+
+ol, li {
+    margin-left: 75px;
+    margin-right: 75px;
+    font-family: "Barlow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    list-style-position: inside;
+    list-style-type: circle;
+    margin-bottom: 15px;
 }
 
 
