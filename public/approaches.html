@@ -5,10 +5,11 @@
   <title> Approaches - DC 2020 </title>
   <meta name = "Luke Gibson, Christina Lingfu, Joshua May" content = "Data Challenge Website">
   <link rel = "stylesheet" href  = "css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow:400,600,700" media="all">
 </head>
 <header>
   <h1>Data Challenge 2020</h1>
-  <h2>DOTS Campus Traffic Counts</h2>
+  <h2>DOTS Campus Traffic Counts - Approaches</h2>
   <h3>
     <a href="index.html"><p>Home</p></a>
     <a href="overview.html"><p>Problem Overview</p></a>
@@ -19,6 +20,20 @@
 </header>
 <body>
   <div class="wrapper">
+    <div class="h1">&nbsp;&nbsp;&nbsp;&nbsp;Time Series Analysis</div>
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In order to better understand the data, we began 
+      by looking at the data points over time and location. This required some research and adding 
+      geocoordinates for each sensor. We first plotted the data in an area chart over time to create an overview. 
+      Then we decided to average traffic volumes by time and sensor to create an averaged overview. In order to get 
+      <a href="mp4/dots_ped_veh.mp4">an animated visualization</a>, we used Tableau to express the data in pages(or frames)</p>
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Later it became apparent that tweaking was necessary regarding the 
+      animation. The thought process was this, looking for large darker circles at 15 minute intervals may intuitively indicate 
+      traffic congestion, but the sensors could not reliably account for vehicles until they passed. In fact, a larger darker 
+      circle at 15 minute intervals is likely more indicative of a comfortable traffic flow and not traffic congestion.
+    </p>
+  </div>
+  <div class="wrapper">
+    <div class="h1">&nbsp;&nbsp;&nbsp;&nbsp; Modeling</div>
   </div>
 </body>
 <footer>
