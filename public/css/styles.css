@@ -11,6 +11,7 @@ footer h1, footer p, h3 p a, footer h3 p {
     font-size: 20px;
     font-family: "Barlow", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
+    text-decoration: none;
 }
 
 header h3 p, header h3 p a {
