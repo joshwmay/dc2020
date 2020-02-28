@@ -103,11 +103,17 @@ h3{
     justify-content: center;    
 }
 
+#overview {
+    padding: 10px;
+}
+
 .img {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
+    margin: 10px;
 }
 
 img {    
