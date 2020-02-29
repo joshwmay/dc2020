@@ -101,7 +101,12 @@ h3{
     display:flex;
     flex-direction: column;
     column-count: 2;
-    justify-content: space-evenly ;
+    justify-content: space-evenly;
+}
+
+#sketch .rows img {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .rows {
@@ -110,10 +115,8 @@ h3{
     justify-content: center;    
 }
 
-#overview, #findings1, #findings2 {
-    display: flex;
+#overview {
     padding: 10px;
-    flex-wrap: wrap;
 }
 
 .img {
@@ -125,11 +128,19 @@ h3{
     margin: 10px;
 }
 
+#findings1 img, #findings2 img {
+    max-width: 25%;
+}
+
+#findings1, #findings2 {
+    display:flex;
+    flex-flow: wrap;
+}
+
 img {    
     margin-top: 10px;
     margin-bottom: 10px;
-    max-width:50%;
-    max-height: 50%;
+    max-width:100%;
 }
 
 button {
