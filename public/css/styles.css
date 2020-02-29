@@ -124,7 +124,7 @@ h3{
     margin: 10px;
 }
 
-#findings1, #findings2, #findings3 {
+#findings1, #findings2, #findings3, #findings_int {
     display:flex;
     flex-flow: wrap;
     padding: 10px;
