@@ -97,6 +97,18 @@ h3{
     text-decoration: none;
 }
 
+#sketch {
+    display:flex;
+    flex-direction: column;
+    column-count: 2;
+    justify-content: space-evenly ;
+}
+
+#sketch .rows img {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .rows {
     display: flex;
     flex-direction: row;
