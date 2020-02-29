@@ -1,5 +1,5 @@
 ---
-title: "Affect of Temperature on the Model"
+title: "Effect of Temperature on the Model"
 author: "Luke Gibson"
 date: "February 29, 2020"
 output: html_document
@@ -40,6 +40,9 @@ The model is built using spline regression to emulate the curves of the dataset,
 
 ```{r} 
 cmodel <- lm(cars ~ bs(time_of_day, knots = knots) + Temperature, data = train.data) 
+ggplot(train.data, aes(time_of_day, cars), time_of_day) +
+  geom_point() +
+  stat_smooth(method = lm, formula = y ~ splines::bs(x, df = 5))
 predictions <- cmodel %>% predict(test.data) 
 data.frame(   RMSE = RMSE(predictions, test.data$cars),   
               R2 = R2(predictions, test.data$cars) ) 
@@ -52,6 +55,9 @@ The model is built the same way as above, but there are spikes in pedestrian tra
 
 ```{r} 
 tmodel <- lm(pedestrians ~ bs(time_of_day, knots = knots) + Temperature, data = train.data) 
+ggplot(train.data, aes(time_of_day, pedestrians), time_of_day) +
+  geom_point() +
+  stat_smooth(method = lm, formula = y ~ splines::bs(x, df = 5))
 predictions <- tmodel %>% predict(test.data) 
 data.frame(   RMSE = RMSE(predictions, test.data$cars),   
               R2 = R2(predictions, test.data$cars) ) 
