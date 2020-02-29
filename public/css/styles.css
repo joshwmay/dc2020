@@ -132,9 +132,17 @@ h3{
     max-width: 50%;
 }
 
-#findings1, #findings2 {
+#findings1, #findings2, #findings3 {
     display:flex;
     flex-flow: wrap;
+    padding: 10px;
+}
+
+#big_head {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 img {    
