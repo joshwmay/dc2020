@@ -1035,5 +1035,7 @@ dattemp <- bind_cols(dattemp, data.frame(predictions))
 dat2 <- bind_rows(dat2, dattemp)
 
 
-levels(dat$location)
+# Join
+dat <- left_join(dat, dat2, by= c("time", "location"))
+write.csv(dat, "dots_data_pred.csv")
 

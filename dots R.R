@@ -23,4 +23,4 @@ write.csv(dat_combined, "dots_data_combined.csv")
 
 # Add weekday
 dat <- read.csv("~/INST377/Food_Inspection_Build/dc2020/dots_data.csv")
-dat$weekday <- weekdays(as.Date(dat$time_round))
+dat$weekday <- weekdays(as.Date(dat$time))
