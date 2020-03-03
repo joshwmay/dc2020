@@ -9,7 +9,7 @@ enabling attendees to access our work from their own devices. There was special 
 ensure our website would be ADA compliant also; and Tableau allowed our visualizations to be published
 in their public domain. The whole experience could be compared to an agile push with an organization.
 We were able to produce a deliverable that is worthy of note, because it is something that can be built upon.
-The skills we worked with involved blended analysis, design, powerful applications, and an attempt at
+The skills we worked with blended analysis, design, powerful applications, and an attempt at
 visual storytelling through website.
 
 We printed QR codes to our site for others to access. For those who got our demo, we guided them through the site,
