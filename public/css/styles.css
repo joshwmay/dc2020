@@ -65,7 +65,7 @@ h1 , .h1{
   font-stretch: expanded;
   font-family: "Barlow", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: bolder;
-  font-weight: +20px;
+  font-weight: bolder;
   font-size: 30px;
 }
 
@@ -97,6 +97,14 @@ h3{
     text-decoration: none;
 }
 
+#sketch {
+    display:flex;
+    flex-direction: column;
+    column-count: 2;
+    justify-content: space-around;
+}
+
+
 .rows {
     display: flex;
     flex-direction: row;
@@ -114,6 +122,19 @@ h3{
     align-content: center;
     align-items: center;
     margin: 10px;
+}
+
+#findings1, #findings2, #findings3, #findings_int {
+    display:flex;
+    flex-flow: wrap;
+    padding: 10px;
+}
+
+#big_head {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 img {    

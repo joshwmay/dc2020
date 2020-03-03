@@ -1,0 +1,71 @@
+---
+title: "Effect of Temperature on the Model"
+author: "Luke Gibson"
+date: "February 29, 2020"
+output: html_document
+---
+```{r setup, include=FALSE} 
+
+library(dplyr)
+library(lubridate)
+library(ggplot2)
+library(splines)
+library(caret)
+
+```
+
+# Reading in data
+The data is read in, and all NA records are omitted to eliminate any entries that weather data is not present for.
+
+```{r} 
+dat <- read.csv("~/INST377/Food_Inspection_Build/dc2020/dots_data.csv") 
+dat <- na.omit(dat)
+```
+# Including Plots
+For this model, we are focusing on one location to simplify it, the South Gate, South View. The data is then partitioned randomly into a 20/80 split of testing/training data. The knots forthe model are also created, simpler than the final model to make the model smoother.
+
+```{r} 
+dat_filter <- filter(dat, location == 'South_Gate_South_View')
+set.seed(123) 
+training.samples <- dat_filter$time_of_day %>% 
+    createDataPartition(p = 0.8, list = FALSE) 
+train.data <- dat_filter[training.samples, ] 
+test.data <- dat_filter[-training.samples, ] 
+knots <- quantile(train.data$time_of_day, p = c(0, 0.25, 0.5, 0.75, 1))
+
+```
+
+# Model of Cars
+The model is built using spline regression to emulate the curves of the dataset, while temperature is used as a linear component.
+
+```{r} 
+cmodel <- lm(cars ~ bs(time_of_day, knots = knots) + Temperature, data = train.data) 
+ggplot(train.data, aes(time_of_day, cars), time_of_day) +
+  geom_point() +
+  stat_smooth(method = lm, formula = y ~ splines::bs(x, df = 5))
+predictions <- cmodel %>% predict(test.data) 
+data.frame(   RMSE = RMSE(predictions, test.data$cars),   
+              R2 = R2(predictions, test.data$cars) ) 
+summary(cmodel)
+```
+Testing the data shows a RMSE of 136.4, and an R^2 of 0.830. The coefficient of Temperature is 0.205 with a pvalue of 0.6844, meaning that temperature is not a significant predictor for cars driving through the South Gate, South View.
+
+# Model of Pedestrians
+The model is built the same way as above, but there are spikes in pedestrian traffic as classes transition during the week, making a model less reliable.
+
+```{r} 
+tmodel <- lm(pedestrians ~ bs(time_of_day, knots = knots) + Temperature, data = train.data) 
+ggplot(train.data, aes(time_of_day, pedestrians), time_of_day) +
+  geom_point() +
+  stat_smooth(method = lm, formula = y ~ splines::bs(x, df = 5))
+predictions <- tmodel %>% predict(test.data) 
+data.frame(   RMSE = RMSE(predictions, test.data$cars),   
+              R2 = R2(predictions, test.data$cars) ) 
+summary(tmodel)
+
+```
+
+Testing the data shows a RMSE of 331.4, and an R^2 of 0.7902. The coefficient of Temperature is 1.47 with a pvalue of approximately 0, meaning that at with an alpha of 0.01, for every additional degree Fahrenheit, there are 1.47 more people walking every 15 minutes at the South Gate, South View. Due to outliers and spikes previously mentioned, any change in the seed drastically changes this data, but the Temperature coefficient tends to stay positive.
+
+# Conclusions
+As temperature rises, cars decrease and pedestrians increase at the South Gate, South View. However, the effect of this is minute compared to the effect of time of day, so for the final model, temperature will not be included.

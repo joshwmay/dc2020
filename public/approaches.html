@@ -23,24 +23,36 @@
   <div class="wrapper">
     <div class="h1">&nbsp;&nbsp;&nbsp;&nbsp;<u>Time Series Analysis</u></div>
     <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In order to better understand the data, we began 
-      by looking at the data points over time and location. This required some research and adding 
+      by looking at the data points over time and location. This required some research along with adding 
       geocoordinates for each sensor. We first plotted the data in an area chart over time to create an overview. 
-      Then we decided to average traffic volumes by time and sensor to create an averaged overview. In order to get 
+      Then we calculated mean traffic volumes by time and sensor to create an averaged overview. In order to get 
       <a href="mp4/dots_ped_veh.mp4">an animated visualization</a>, we used Tableau to express the data in pages(or frames)</p>
-    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Later it became apparent that tweaking was necessary regarding the 
-      animation. The thought process was this, looking for large darker circles at 15 minute intervals may intuitively indicate 
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Later it we decided to tweak the time frames for the animation 
+      animation. The thought was this, looking for large darker circles at 15 minute intervals may intuitively indicate 
       traffic congestion, but the sensors could not reliably account for vehicles until they passed. In fact, a larger darker 
-      circle at 15 minute intervals is likely more indicative of a comfortable traffic flow and not traffic congestion.
+      circle at 15 minute intervals could be more indicative of a comfortable traffic flow and not traffic congestion.
+    </p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; During this process we also looked at the variance between events 
+      like a Saturday in which Maryland hosted a <a href="https://www.espn.com/college-football/game?gameId=401112208">football game</a>
+      versus the next Saturday in which there was no football game. Another thing we attempted to gauge was the effects of class schedule 
+      on traffic volume.  
     </p>
   </div>
-  <div class="wrapper">
+  <div id="sketch" class="wrapper">
     <div class="h1">&nbsp;&nbsp;&nbsp;&nbsp;<u>Modeling</u></div>
+    <div class="rows">
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Within the data visualizations we include 2 RMarkdown files. They contain work and descriptions 
+        related to our attempts at making models from the dataset. Before getting deep into modeling however, we hand-sketched some trends 
+        to get a basic idea of what to expect, seen here.
+      </p>
+      <img src="png/sketch.PNG" alt="Hand sketched models of traffic volume" title="Hand sketched models of traffic volume">
+    </div>
   </div>
 </body>
 <footer>
   <h1>Project Members</h1>
   <h3>
-    <p>Luke Gibson</p>
+    <p><a href="https://www.linkedin.com/in/luke-a-gibson/">Luke Gibson</a></p>
     <p>Christina Lingfu</p>
     <p><a href="https://www.linkedin.com/in/joshua-may-5a213712b/">Joshua May</a></p>
   </h3>

@@ -21,12 +21,75 @@
 </header>
 <body>
   <div class="wrapper">
+    <div class="wrapper">
+      <div id="big_head" class="h1">&nbsp;&nbsp;&nbsp;&nbsp;<u>Findings</u></div>
+      <div class="h1">&nbsp;&nbsp;&nbsp;&nbsp;<u>Football Games & Classes</u></div>
+      <div id="findings1" class="rows"><p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Football games will obviously have 
+        an effect on traffic volumes at a D1 school like the University of Maryland at College Park. What 
+        we did not quite expect was to be able to clearly see anything that indicated the result of the game. 
+        However, there is a clear indication that the game was a one-sided affair as there are two peaks in traffic volume. 
+        One occurs at around 2PM, which is about <a href="https://mgoblue.com/sports/football/stats/2019/maryland/boxscore/12101">an  
+        hour before the end of regulation</a>. The other occurs around 7PM, or three hours after the end of game regulation. 
+        It is reasonable to think these peaks occurred when fans either left the game early knowing their team was doomed, or left late 
+        as they stuck around to enjoy other festivities associated with college football.
+      </p>
+      <img src="png/game_ex.PNG" alt="Snippet from area chart conveying traffic volumes on a football game day."
+      title="Snippet from area chart conveying traffic volumes on a football game day.">
+    </div>
+    <div id="findings2" class="rows">
+      <p>In addressing the question pertaining to traffic patterns based on class schedule, the averaged pedestrian data seemed to be 
+        quite telling. The peaks and valleys in pedestrian traffic fluctuate by about 2,000 individuals at times with the highest variance. 
+        Before those steeper variations are two smaller ones to start an averaged day. We found this to be at least somewhat odd, as the pedestrian 
+        traffic recorded before noon is quite limited. One reason we think this may be is due to the locations of sensors in relationship to parking lots.
+        The sensors may have missed traffic volumes of pedestrians that park further away from sensors and possibly walk to earlier classes along 
+        routes that were not monitored. 
+      </p>
+      <img src="png/pedestrians_avg.PNG" alt="Snippet showing area chart of average pedestrian traffic volume." 
+      title="Snippet showing area chart of average pedestrian traffic volume.">
+    </div>
+    <div class="wrapper">
+      <div class="h1">&nbsp;&nbsp;&nbsp;&nbsp;<u>Pedestrian/Vehicle Intersection</u></div>
+      <div id="findings_int" class="rows">
+        <p>Looking at the visuals we generated depicting pedestrian and vehicular intersection, two locations seem to stand out. 
+          The gate locations near Route 1 seem to be a contender for some type of infrastructure that would allow pedestrians and 
+          vehicles to travel independent of one another. Another location deserving of attention for a way of diverting pedestrians and 
+          vehicles is the area near where Stadium Drive intersects with Regents Drive. Freeing up these locations could help alleviate 
+          congestion, as well as add to sustainability with fuel savings. Additionally it could make things safer for bicyclists that share the road 
+          with motor vehicles while adding to the safety of pedestrians.
+        </p>
+        <img src="png/int_find.PNG" alt="Snippet showing pedestrian and vehicular intersection" 
+        title="Snippet showing area chart of average pedestrian traffic volume.">
+      </div>
+    </div>
+    </div>
+    <div class="wrapper">
+      <div class="h1">&nbsp;&nbsp;&nbsp;&nbsp;<u>Temperature Effects</u></div>
+      <div id="findings3" class="rows">
+        <p>As temperature rises, cars decrease and pedestrians increase at the South Gate, South View. However, the effect of this is 
+          minute compared to the effect of time of day, so for the final model, temperature will not be included.
+        </p>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="h1">&nbsp;&nbsp;&nbsp;&nbsp;<u>Modeling</u></div>
+      <div id="findings3" class="rows">
+        <p>A regression Model was able to be built to predict the traffic of cars using spline regression, dependent on the location, 
+          time of day, and weekday. Due to the limitations of the data, however, the data could not be split in order to test and train 
+          the model, as the removal of a few data points would introduce a lot of variation and error. Therefore, more data should be 
+          included before the model is tested and used for predictions.
+        </p>
+        <img src="png/Model2.PNG" alt="Snippet showing modeling" 
+        title="Snippet showing modeling">
+      </div>
+    </div>
+
+      
   </div>
 </body>
 <footer>
   <h1>Project Members</h1>
   <h3>
-    <p>Luke Gibson</p>
+    <p><a href="https://www.linkedin.com/in/luke-a-gibson/">Luke Gibson</a></p>
     <p>Christina Lingfu</p>
     <p><a href="https://www.linkedin.com/in/joshua-may-5a213712b/">Joshua May</a></p>
   </h3>
