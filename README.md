@@ -30,8 +30,14 @@ https://datachallenge.ischool.umd.edu/
 This was made possible to the work we have each done at the University of Maryland learning from tremendous
 personnel in the iSchool.
 
-Personal thanks are in order to Professor Alex Leitch who taught this group about web dynamics; a feature
-that allowed our work to be tangible. Professor Eric Newburger, who was teaching two members from this group
-about data visualizations during the project period semester. Dr. Elizabeth Bonsignore, for being a great 
-mentor and conduit to studying information science. Special thanks finally to Tammie Nelson and Dr. Kathy Weaver
-for putting together such a great event and all the other individuals involved with our information studies.
+Thank you to the team at DOTS that allowed us to work with such an interesting dataset and attempt a curious question.
+
+Personal thanks are in order to the following:
+Professor Alex Leitch who taught this group about web dynamics; a feature that allowed our work to be tangible. 
+Professor Eric Newburger, who was teaching two members from this group about data visualizations during the 
+project period semester. 
+Dr. Elizabeth Bonsignore, for being a great mentor and conduit to studying information science.
+Thank you to all the other individuals involved with our information studies.
+Thanks to the volunteers that helped facilitate things.
+Special thanks finally, to Tammie Nelson and Dr. Kathy Weaver for putting together such a great event. 
+
