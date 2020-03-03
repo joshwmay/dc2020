@@ -27,6 +27,11 @@ header h3 p, header h3 p a {
     font-style: normal;
 }
 
+h1 a{
+    text-decoration: none;
+    color:#ffd600 ;
+}
+
 h2 {
     font-family: "Barlow", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;

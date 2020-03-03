@@ -38,6 +38,6 @@ Professor Eric Newburger, who was teaching two members from this group about dat
 project period semester. 
 Dr. Elizabeth Bonsignore, for being a great mentor and conduit to studying information science.
 Thank you to all the other individuals involved with our information studies.
-Thanks to the volunteers that helped facilitate things.
+Thanks to the volunteers that helped facilitate things before and during the week of competition.
 Special thanks finally, to Tammie Nelson and Dr. Kathy Weaver for putting together such a great event. 
 
